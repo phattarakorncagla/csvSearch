@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-complete-csvsearch-modern-client-side-solution",
+    "id": "63e24587-fadb-4e9e-93b6-d063a2f0c3a5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-complete-csvsearch-modern description"
+      },
+      "longDescription": {
+        "default": "spfx-complete-csvsearch-modern description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-complete-csvsearch-modern Feature",
+        "description": "The feature that activates elements of the spfx-complete-csvsearch-modern solution.",
+        "id": "4ac851a1-9e24-487f-887e-8dcf00130b6c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-complete-csvsearch-modern.sppkg"
+  }
+}
