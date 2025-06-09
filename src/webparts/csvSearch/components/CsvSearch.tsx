@@ -24,7 +24,7 @@ export const CsvSearch: React.FC<ICsvSearchProps> = () => {
     const fetchCsv = async () => {
       try {
         const response = await fetch(
-          "https://cagla.sharepoint.com/sites/cagla/_layouts/15/download.aspx?UniqueId=5b55da99%2D41b1%2D4c2b%2Db08f%2D757e74464f9f"
+          "https://toyotajp.sharepoint.com/:x:/r/sites/msspo_ITassetmgt_portal/Shared%20Documents/%E3%81%9D%E3%81%AE%E4%BB%96/data/CSVSearch.csv"
         );
 
         if (!response.ok) {
